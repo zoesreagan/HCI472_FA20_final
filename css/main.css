@@ -10332,3 +10332,27 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
   font-style: italic;
 }
+
+#web_layout {
+  width: 1240px;
+}
+
+#web_grid {
+  width: 1240px;
+}
+
+#tablet_layout {
+  width: 568px;
+}
+
+#tablet_grid {
+  width: 568px;
+}
+
+#mobile_layout {
+  width: 568px;
+}
+
+#mobile_grid {
+  width: 568px;
+}
