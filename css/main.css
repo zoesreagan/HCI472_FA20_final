@@ -18,8 +18,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
+  --primary: #2441FF;
+  --secondary: #CC9E08;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -59,7 +59,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: blue;
   text-align: left;
   background-color: #fff;
 }
@@ -161,16 +160,17 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #2441FF;
   text-decoration: none;
   background-color: transparent;
   font-family: halyard-text, sans-serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 16px;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #031380;
   text-decoration: underline;
 }
 
@@ -259,6 +259,7 @@ textarea {
   font-family: halyard-text, sans-serif;
   font-weight: 300;
   font-style: normal;
+
 }
 
 button,
@@ -2561,14 +2562,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #2441FF;
+  border-color: #2441FF;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #031380;
+  border-color: #031380;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2598,14 +2599,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #CC9E08;
+  border-color: #CC9E08;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
+  background-color: #806200;
+  border-color: #806200;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -2888,14 +2889,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d;
+  color: #7C631C;
+  border-color: #7C631C
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #7C631C;
+  border-color: #7C631C;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
@@ -6729,7 +6730,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #2441FF !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
