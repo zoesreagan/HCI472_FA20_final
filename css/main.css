@@ -10332,7 +10332,3 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
   font-style: italic;
 }
-
-.footer-button {
-  justify-content: flex-end;
-}
