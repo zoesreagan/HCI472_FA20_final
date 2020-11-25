@@ -10363,3 +10363,7 @@ a.text-dark:hover, a.text-dark:focus {
 #mobile_grid {
   width: 568px;
 }
+
+svg {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
