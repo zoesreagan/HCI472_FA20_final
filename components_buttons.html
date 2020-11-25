@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Magpie Design System - Home</title>
+    <title>Magpie Design System - Components - Buttons</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="https://use.typekit.net/jqm7ztz.css">
@@ -23,7 +23,7 @@
           <ul class="nav nav-tabs">
 
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Overview</a>
+              <a class="nav-link" href="index.html">Overview</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -37,9 +37,9 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Components</a>
+              <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Components</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="components_buttons.html">Buttons</a>
+                <a class="dropdown-item active" href="components_buttons.html">Buttons</a>
                 <a class="dropdown-item" href="components_cards.html">Cards</a>
                 <a class="dropdown-item" href="components_navigation.html">Navigation</a>
 
@@ -56,10 +56,6 @@
 
             </li>
 
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li> -->
-
           </ul>
 
         </div>
@@ -70,20 +66,80 @@
 
     <main>
       <div class="container-fluid">
-
         <div class="jumbotron">
-          <h1 class="display-4">Welcome to Magpie! 👋</h1>
-            <h2 class="lead">We create no - code/low - code solutions to independent contractors and small business owners.</h2>
+          <h1>Buttons</h1>
+          <h3 class="lead">Buttons are a user interface component that help a user perform an action.</h3>
+        </div>
+      </div>
 
-            <hr class="my-4">
-            <h4 class="lead">This is the Magpie Design System.</h4>
-            <p>The purpose of this design system is to provide consistency when creating new content for Magpie. Included are foundational elements (color, typography, and imagery) as well as some key components and two basic page patterns.</p>
-            <a class="btn btn-primary btn-lg" href="foundation_color.html" role="button">Get Started</a>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg">
+            <h2>Usage</h2>
+            <hr>
+            <p>Buttons should be used to reinforce user action and need to be placed wherever a user is asked to perform an action, such as 'Contact' or 'Learn More'</p><br />
+          </div>
+
 
         </div>
 
-      </div>
+        <div class="row">
+          <div class="col-lg">
+            <h2>Accessibility</h2>
+            <hr>
+            <p>Buttons should always utilize the apprporiate HTML element, and should never be coded as links or nav items.</p><br />
+          </div>
 
+        </div>
+
+        <div class="row">
+          <div class="col-lg">
+            <h2>Examples</h2>
+            <hr>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg">
+            <h3>Primary Button</h3>
+            <p>Primary buttons should be used for primary user actions i.e. Contact or first level information architecture.</p>
+            <button type="button" class="btn btn-primary">Primary</button> <br /><br />
+            <code>&lt;button type="button" class="btn btn-primary"&gt;</code> BUTTON TEXT <code>&lt;/button&gt;</code>  <br /><br />
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg">
+            <h3>Secondary Button</h3>
+            <p>Secondary Buttons can be used on interior pages or as a second option for users along side a primary action.</p>
+            <button type="button" class="btn btn-secondary">Secondary</button> <br /><br />
+            <code>&lt;button type="button" class="btn btn-secondary"&gt;</code> BUTTON TEXT <code>&lt;/button&gt;</code>  <br /><br />
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg">
+            <h3>Tertiary button</h3>
+            <p>Tertiary Buttons should be used sparingly and typically only as an 'on page' action, such as loading more content.</p>
+            <button type="button" class="btn btn-outline-secondary">Tertiary</button> <br /><br />
+
+            <code>&lt;button type="button" class="btn btn-outline-secondary"&gt;</code> BUTTON TEXT <code>&lt;/button&gt;</code>  <br /><br />
+
+          </div>
+
+        </div>
+
+
+
+      </div>
     </main>
 
 
